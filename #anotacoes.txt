@@ -1,0 +1,37 @@
+JS assíncrono e síncrono
+Evento Loop
+Call Stack
+Task Queue
+
+Entendendo os assuntos acima, vamos aprender sobre;
+
+//Assinconicidade e requisições
+Call Backs;
+Fetch API;
+Promises;
+
+
+
+//////////////////////////////////////////////////////////////////
+Tratar promises a partir dos seus métodos;
+Utilizar o método then para acessar o valor retornado do fetch API;
+Converter dados em JSON através do método json();
+Lidar com possíveis erros com o método catch;
+Enviar respostas independente do retorno com o método finally.
+
+then(dados=>dados) ~ responsável por pegar a resposta(dados) de onde foi acionado
+json() ~ responsável por compilar os dados que vêm em 'bytes' para js
+catch(erro=>erro) ~ responsável por 'pegar' possíveis erros e avisar conforme específicado na func
+//////////////////////////////////////////////////////////////////
+Construir funções assíncronas com async;
+Criar requisições com await;
+Tratar erros com try catch;
+Implementar várias requisições simultaneamente com Promise All.
+//////////////////////////////////////////////////////////////////
+Erros
+1XX: Informativo – a solicitação foi aceita ou está em andamento;
+2XX: Confirmação – a solicitação foi concluída ou entendida;
+3XX: Redirecionamento – faltou alguma coisa na solicitação;
+4XX: Erro do cliente – houve um erro na solicitação;
+5XX: Erro no servidor – houve uma falha no servidor durante a solicitação.
+//////////////////////////////////////////////////////////////////
